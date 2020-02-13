@@ -1,6 +1,6 @@
 # Lodging Marketplace App: Reviews Service
 
-> This is the reviews service of a lodging marketplace app. It is one service out of 5 (others listed below) for the full app.
+> This is the reviews service of a lodging marketplace app. It is one micro-service out of 5 (others listed below) for the full app.
 
 ## Related Projects
 
@@ -11,9 +11,10 @@
 
 ## Table of Contents
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+1. [Related Projects] (#Related Projects)
+2. [Usage](#Usage)
+3. [Requirements](#requirements)
+4. [Development](#development)
 
 ## Usage
 
