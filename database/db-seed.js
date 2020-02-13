@@ -70,9 +70,7 @@ var addReviews = (num) => {
       db.addOneReview(review, i, (err, result) => {
         if (err) {
           console.log('error adding review to house during seeding:', err);
-        } else {
-	console.log('called addOneReview function');
-	}
+        }
       })
     }
   }
