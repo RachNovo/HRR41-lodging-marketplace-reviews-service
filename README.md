@@ -12,6 +12,7 @@
 ## Usage
 
 - clone repo
+- cd into repo
 - npm install
 - npm run seedDB (install mongoDB if you don't have it)
 - npm run build
