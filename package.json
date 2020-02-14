@@ -1,7 +1,6 @@
 {
   "name": "hrr41-airbnb-reviews-service",
-  "description": "> Project description",
-  "author": "",
+  "author": "Rachel Novoselac",
   "license": "ISC",
   "engines": {
     "node": ">=10.16.3"
@@ -46,7 +45,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "grunt": "^1.0.4",
     "jest": "^24.9.0",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
@@ -59,10 +57,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roshi-HRR/HRR41-airbnb-reviews-service.git"
+    "url": "git+https://github.com/RachNovo/lodging-marketplace-app.git"
   },
   "bugs": {
-    "url": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-service/issues"
+    "url": "https://github.com/RachNovo/lodging-marketplace-app/issues"
   },
-  "homepage": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-service#readme"
+  "homepage": "https://github.com/RachNovo/lodging-marketplace-app#readme"
 }
