@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const uri = 'mongodb://localhost/reviews';
+const uri = process.env.MONGODB_URI || 'mongodb://localhost/reviews';
 const model = require('./model.js');
 
 mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true}, function(err) {

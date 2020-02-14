@@ -18,7 +18,7 @@ class App extends Component {
   fetch() {
     // const url = new URL(window.location.href);
     // const houseId = url.searchParams.get('house_id');
-    const houseId = '20';
+    const houseId = '27';
     $.get( `/rooms/${houseId}`, (data) => {
       this.setState({'house': data});
     });
