@@ -31,14 +31,14 @@ class CurrentViewSelect extends Component {
         if (i === selected) {
           array.push(<span className={selectedStyle} key={Math.random()}>{i}</span>);
         } else {
-          array.push(<span className={number} className={'number'} onClick={currentView.bind(null, i)} key={Math.random()}>{i}</span>);
+          array.push(<span className={number} onClick={currentView.bind(null, i)} key={Math.random()}>{i}</span>);
         }
       }
       if (selected !== 1) {
-        array.unshift(<span className={number} className={'number'} onClick={currentView.bind(null, selected - 1)} key={Math.random()}><img className={left} className={'left-arrow'} src='https://rachels-review-bucket.s3.amazonaws.com/Left.png'></img></span>);
+        array.unshift(<span className={number} onClick={currentView.bind(null, selected - 1)} key={Math.random()}><img className={left} src='https://rachels-review-bucket.s3.amazonaws.com/Left.png'></img></span>);
       }
       if (selected !== views) {
-        array.push(<span className={number} className={'number'} onClick={currentView.bind(null, selected + 1)} key={Math.random()}><img className={right} className={'right-arrow'} src='https://rachels-review-bucket.s3.amazonaws.com/Right.png'></img></span>);
+        array.push(<span className={number} onClick={currentView.bind(null, selected + 1)} key={Math.random()}><img className={right} src='https://rachels-review-bucket.s3.amazonaws.com/Right.png'></img></span>);
       }
       return (
         <div>
