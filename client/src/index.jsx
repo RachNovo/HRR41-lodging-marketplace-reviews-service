@@ -14,7 +14,7 @@ class App extends Component {
     this.fetch = this.fetch.bind(this);
   }
 
-  //set to call a specific house, could build out functionality so user can choose house
+  //set to call a specific house for ease of display on portfolio, functionality here to for a specific house to be queried from the url params.
   fetch() {
     // const url = new URL(window.location.href);
     // const houseId = url.searchParams.get('house_id');
