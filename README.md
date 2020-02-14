@@ -10,4 +10,4 @@
 - npm run seedDB (install mongoDB if you don't have it)
 - npm run build
 - npm start
-- access app at http://localhost:3000/?house_id=13 (change the id number to access the reviews for a different house)
+- access app at http://localhost:3000/
