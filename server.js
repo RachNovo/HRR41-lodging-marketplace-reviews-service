@@ -3,13 +3,17 @@ const app = express();
 const port = 3000;
 const db = require('./database/db.js');
 const bodyParser = require('body-parser');
+const path = require("path");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/./client/dist'));
+app.use(express.static(path.join(__dirname, "client", "build")));
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 app.get(`/rooms/:id`, (req, res) => {
   db.accessOneHouse(req.params.id, (err, house) => {
@@ -56,3 +60,5 @@ app.delete('/rooms', (req, res) => {
     res.end();
   })
 })
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
