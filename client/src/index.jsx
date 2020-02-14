@@ -14,10 +14,11 @@ class App extends Component {
     this.fetch = this.fetch.bind(this);
   }
 
-  //currently calling data for a random room
+  //set to call a specific house, could build out functionality so user can choose house
   fetch() {
-    const url = new URL(window.location.href);
-    const houseId = url.searchParams.get('house_id');
+    // const url = new URL(window.location.href);
+    // const houseId = url.searchParams.get('house_id');
+    const houseId = '20';
     $.get( `/rooms/${houseId}`, (data) => {
       this.setState({'house': data});
     });

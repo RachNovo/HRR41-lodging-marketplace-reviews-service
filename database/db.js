@@ -24,7 +24,7 @@ var accessOneHouse = (id, callback) => {
   model.Review.findOne({'house_id': id}, (err, house) => {
     if (err) {
       callback(err, null);
-    } else {	    
+    } else {
       callback(null, house);
     }
   });
@@ -43,7 +43,7 @@ var addOneReview = (review, house_id, callback) => {
   model.Review.updateOne({'house_id': house_id}, {$push: {'user_reviews': review}, $inc: {user_reviews_count: 1}}, {safe: true, new: true}, (err, result) => {
     if (err) {
       callback(err);
-    } else {    
+    } else {
         callback(null, result);
     }
   })

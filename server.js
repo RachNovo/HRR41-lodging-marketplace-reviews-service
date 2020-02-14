@@ -7,13 +7,6 @@ const path = require("path");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/./client/dist'));
-app.use(express.static(path.join(__dirname, "client", "build")));
-
-app.get('/', (req, res) => res.send('Hello World!'));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-});
 
 app.get(`/rooms/:id`, (req, res) => {
   db.accessOneHouse(req.params.id, (err, house) => {
@@ -61,4 +54,8 @@ app.delete('/rooms', (req, res) => {
   })
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
+});
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
