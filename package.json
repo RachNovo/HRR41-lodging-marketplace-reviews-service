@@ -11,7 +11,7 @@
     "seedDB": "node database/db-seed.js",
     "test": "jest",
     "cypress": "cypress open",
-    "heroku-postbuild": "npm install && npm run build"
+    "heroku-postbuild": "npm install && npm run build && npm run seedDB"
   },
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
