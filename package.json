@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js --watch",
-    "start": "node server/server.js",
+    "start": "node server.js",
     "seedDB": "node database/db-seed.js",
     "test": "jest",
     "cypress": "cypress open"
