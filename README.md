@@ -1,12 +1,11 @@
 # Lodging Marketplace App: Reviews Service
-___
 ![alt House](https://rachel-portfolio.s3.amazonaws.com/house.jpg)
 
 > Need somewhere to stay? Use this app to find the perfect place! This is one service out of five for the full application. [Full App Demo: Coming soon](link)
 
 ##### Team Members
 
-- Rachel Novoselac - [RachNovo](https://github.com/RachNovo) - Reviews Service (this is me ;))
+- Rachel Novoselac - [RachNovo](https://github.com/RachNovo) - Reviews Service (this is me :) )
 - Johnathan Kwak - [jkwak09](https://github.com/jkwak09) - More Homes Service
 - Brian Hambleton - [bhambleton123](https://github.com/bhambleton123) - Booking Service
 - Emily Meeks - [minglewook](https://github.com/minglewook) Main Photo Carousel Service
@@ -43,9 +42,11 @@ $ npm start
 ```
 The service will now be available at: http://localhost:3000/
 
+```
 ![Lodging-Marketplace-Demo](https://rachel-portfolio.s3.amazonaws.com/lodging-marketplace-demo.gif)
+```
 
-==Note:== It is currently set up to call a specific house for display purposes. To access house id's by url query, follow the instructions found in `client/src/index.jsx`.
+**Note:** It is currently set up to call a specific house for display purposes. To access house id's by url query, follow the instructions found in `client/src/index.jsx`.
 
 ### Testing
 Follow these instructions to run the tests.
