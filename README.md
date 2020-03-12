@@ -42,9 +42,7 @@ $ npm start
 ```
 The service will now be available at: http://localhost:3000/
 
-```
 ![Lodging-Marketplace-Demo](https://rachel-portfolio.s3.amazonaws.com/lodging-marketplace-demo.gif)
-```
 
 **Note:** It is currently set up to call a specific house for display purposes. To access house id's by url query, follow the instructions found in `client/src/index.jsx`.
 
