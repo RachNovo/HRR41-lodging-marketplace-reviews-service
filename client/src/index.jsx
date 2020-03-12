@@ -14,7 +14,8 @@ class App extends Component {
     this.fetch = this.fetch.bind(this);
   }
 
-  //set to call a specific house for ease of display on portfolio, functionality here to for a specific house to be queried from the url params.
+  //Code is currently set to call a specific house for ease of display on portfolio. To enable querying for a specific house from the url params: comment out the houseId variable and uncomment the commented code. Then type `npm run build` in the command line to update the app. After that is complete, access the house you want using `/?house_id=96` after the url (replacing 96 with your desired id number from 1 to 100).
+
   fetch() {
     // const url = new URL(window.location.href);
     // const houseId = url.searchParams.get('house_id');
