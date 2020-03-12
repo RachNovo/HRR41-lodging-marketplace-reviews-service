@@ -47,7 +47,7 @@ The service will now be available at: http://localhost:3000/
 **Note:** It is currently set up to call a specific house for display purposes. To access house id's by url query, follow the instructions found in `client/src/index.jsx`.
 
 ### Testing
-Follow these instructions to run the tests.
+> Follow these instructions to run the tests.
 
 #### End To End Tests
 Coming Soon detailing my work with Cypress.io
