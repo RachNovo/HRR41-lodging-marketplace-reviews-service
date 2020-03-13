@@ -1,6 +1,12 @@
 # Lodging Marketplace App: Reviews Service
+1. [Overview](#overview)
+2. [Getting Started](#getting-started)
+3. [Tools Used](#built-with)
+4. [Authors](#authors)
+5. [License](#license)
 ![alt House](https://rachel-portfolio.s3.amazonaws.com/house.jpg)
 
+## Overview
 > Need somewhere to stay? Use this app to find the perfect place! This is one service out of five for the full application. [Full App Demo: Coming soon](link)
 
 ##### Team Members
