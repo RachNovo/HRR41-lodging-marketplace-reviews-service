@@ -36,8 +36,8 @@ $ git clone https://github.com/RachNovo/lodging-marketplace-app.git
 Navigate inside the directory: 'lodging-marketplace-app' and run the following commands:
 ```bash
 $ npm install
-$ npm run seedDB #wait 15 seconds before canceling the command
 $ npm run build
+$ npm run seedDB #wait 15 seconds before canceling the command
 $ npm start
 ```
 The service will now be available at: http://localhost:3000/
@@ -63,6 +63,13 @@ Coming Soon detailing my work with Cypress.io
 * [AWS EC2](https://aws.amazon.com/ec2/) - Deployment
 * [Cypress.io](https://www.cypress.io/) - End to End Testing
 * [Trello](https://trello.com/) - Ticketing System to Assist with Project Management
+
+## Authors
+- Rachel Novoselac [RachNovo](https://github.com/RachNovo) - (this is me :) )
+  - Designed and built reviews service UI and back end
+  - Stabilized view size by designing algorithm that displays pagination selection bar, reducing reviews to seven per page, leading to improved site elegance
+  - Ensured app reliability by implementing end-to-end testing using Cypress
+  - Coordinated with team to deploy proxy with five services
 
 ## License
 
