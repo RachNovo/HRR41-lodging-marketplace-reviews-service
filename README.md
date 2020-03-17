@@ -2,8 +2,7 @@
 1. [Overview](#overview)
 2. [Technologies](#technologies)
 3. [Getting Started](#getting-started)
-4. [Authors](#authors)
-5. [License](#license)
+4. [License](#license)
 
 ![alt House](https://rachel-portfolio.s3.amazonaws.com/house.jpg)
 
@@ -17,6 +16,12 @@
 - Brian Hambleton - [bhambleton123](https://github.com/bhambleton123) - Booking Service
 - Emily Meeks - [minglewook](https://github.com/minglewook) Main Photo Carousel Service
 - Dennis Kim - [dekim2324](https://github.com/dekim2324) House Info Service
+
+### My Contribution
+- Designed and built reviews service UI and back end
+- Stabilized view size by designing algorithm that displays pagination selection bar, reducing reviews to seven per page, leading to improved site elegance
+- Ensured app reliability by implementing end-to-end testing using Cypress
+- Coordinated with team to deploy proxy with five services
 
 ### Serivce Demo:
 - [Visit Deployed Service](https://lodging-marketplace.herokuapp.com/)
@@ -66,13 +71,6 @@ The service will now be available at: http://localhost:3000/
 
 ### End To End Tests
 Coming Soon detailing my work with Cypress.io
-
-# Authors
-- Rachel Novoselac [RachNovo](https://github.com/RachNovo) - (this is me :) )
-  - Designed and built reviews service UI and back end
-  - Stabilized view size by designing algorithm that displays pagination selection bar, reducing reviews to seven per page, leading to improved site elegance
-  - Ensured app reliability by implementing end-to-end testing using Cypress
-  - Coordinated with team to deploy proxy with five services
 
 # License
 
