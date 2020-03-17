@@ -20,7 +20,6 @@
 
 ### Serivce Demo:
 - [Visit Deployed Service](https://lodging-marketplace.herokuapp.com/)
-
 - [Video Demo (Coming Soon)](YouTubeLink)
 
 # Technologies
