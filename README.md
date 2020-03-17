@@ -9,6 +9,10 @@
 # Overview
 > Need somewhere to stay? Use this app to find the perfect place! This is one service out of five for the full application. [Full App Demo: Coming soon](link)
 
+### Serivce Demo:
+- [Visit Deployed Service](https://lodging-marketplace.herokuapp.com/)
+- [Video Demo (Coming Soon)](YouTubeLink)
+
 ### Team Members
 
 - Rachel Novoselac - [RachNovo](https://github.com/RachNovo) - Reviews Service (this is me :) )
@@ -22,10 +26,6 @@
 - Stabilized view size by designing algorithm that displays pagination selection bar, reducing reviews to seven per page, leading to improved site elegance
 - Ensured app reliability by implementing end-to-end testing using Cypress
 - Coordinated with team to deploy proxy with five services
-
-### Serivce Demo:
-- [Visit Deployed Service](https://lodging-marketplace.herokuapp.com/)
-- [Video Demo (Coming Soon)](YouTubeLink)
 
 # Technologies
 
