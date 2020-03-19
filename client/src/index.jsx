@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import Body from './Components/Body/Body.jsx';
@@ -8,32 +8,38 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      'house': {}
-    }
-    //this bindings
+      house: {},
+    };
+    // this bindings
     this.fetch = this.fetch.bind(this);
   }
 
-  //Code is currently set to call a specific house for ease of display on portfolio. To enable querying for a specific house from the url params: comment out the houseId variable and uncomment the commented code. Then type `npm run build` in the command line to update the app. After that is complete, access the house you want using `/?house_id=96` after the url (replacing 96 with your desired id number from 1 to 100).
+  // Code is currently set to call a specific house for ease of display on portfolio.
+  // To enable querying for a specific house from the url params:
+  // comment out the houseId variable and uncomment the commented code.
+  // Then type `npm run build` in the command line to update the app.
+  // After that is complete, access the house you want using `/?house_id=96` after the url
+  // (replacing 96 with your desired id number from 1 to 100).
+
+  componentDidMount() {
+    this.fetch();
+  }
 
   fetch() {
     // const url = new URL(window.location.href);
     // const houseId = url.searchParams.get('house_id');
     const houseId = '26';
     $.get( `/rooms/${houseId}`, (data) => {
-      this.setState({'house': data});
+      this.setState({ house: data });
     });
   }
 
-  componentDidMount() {
-    this.fetch();
-  }
-
   render() {
-    return(
+    const { house } = this.state;
+    return (
       <div>
-        <Head house={this.state.house}/>
-        <Body house={this.state.house}/>
+        <Head house={ house } />
+        <Body house={ house } />
       </div>
     )
   }

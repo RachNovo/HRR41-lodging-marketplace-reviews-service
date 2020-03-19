@@ -6,7 +6,7 @@
     "node": ">=10.16.3"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --watch",
     "start": "node server.js",
     "seedDB": "node database/db-seed.js",
     "test": "jest",
@@ -41,6 +41,7 @@
     "cypress": "^3.7.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",

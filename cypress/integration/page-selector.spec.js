@@ -4,7 +4,7 @@ describe('Page Selector', function() {
     const houseId = 36;
 
     cy.server();
-    cy.route('GET', `/rooms/${houseId}`, 'fixture:example-data');
+    cy.route('GET', `/rooms/${houseId}`, 'fixture:example-data.json');
     cy.visit(`/?house_id=${houseId}`);
   })
   it('Should have the first review on load', function() {
@@ -12,17 +12,17 @@ describe('Page Selector', function() {
   })
 
   it('Should have review 8 after clicking number 2', function() {
-    cy.get('.number:first').click();
+    cy.get('._number:first').click();
     expect(cy.get('#8')).to.exist;
   })
 
   it('Should have review 15 after clicking the right arrow', function() {
-    cy.get('.right-arrow').click();
+    cy.get('._right-arrow').click();
     expect(cy.get('#15')).to.exist;
   })
 
   it('Should have review 8 after clicking the left arrow', function() {
-    cy.get('.left-arrow').click();
+    cy.get('._left-arrow').click();
     expect(cy.get('#8')).to.exist;
   })
 })
