@@ -10,8 +10,8 @@
 > Need somewhere to stay? Use this app to find the perfect place! This is one service out of five for the full application. [Full App Demo: Coming soon](link)
 
 ### Serivce Demo:
-- [Visit Deployed Service](https://lodging-marketplace.herokuapp.com/)
 - [Video Demo (Coming Soon)](YouTubeLink)
+- see gif demo below
 
 ### Team Members
 
