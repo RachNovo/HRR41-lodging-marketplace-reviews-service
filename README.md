@@ -69,7 +69,7 @@ The service will now be available at: http://localhost:3000/
 ### Testing
 > Follow these instructions to run the tests.
 
-### End To End Tests
+#### End To End Tests
 
 Ensure the application is initialized and running on port:3000, then follow the instructions below:
 
