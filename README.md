@@ -70,7 +70,15 @@ The service will now be available at: http://localhost:3000/
 > Follow these instructions to run the tests.
 
 ### End To End Tests
-Coming Soon detailing my work with Cypress.io
+
+Ensure the application is initialized and running on port:3000, then follow the instructions below:
+
+```bash
+npm run cypress
+```
+
+select 'Run all specs' in the window that opens:
+![cypress-spec-runner](https://rachel-portfolio.s3.amazonaws.com/cypress-spec-runner.png)
 
 # License
 
