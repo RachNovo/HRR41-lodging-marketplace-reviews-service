@@ -4,11 +4,17 @@
   margin-left: 15px;
   margin-bottom: -12px;
 }
+.right:hover {
+  cursor: pointer;
+}
 .left {
   height: 56px;
   width: 35px;
   margin-right: 15px;
   margin-bottom: -12px;
+}
+.left:hover {
+  cursor: pointer;
 }
 .selectedStyle {
   background-color: #008489;
@@ -31,6 +37,9 @@
   height: 32px;
   width: 32px;
   margin: 25px;
+}
+.number:hover {
+  cursor: pointer;
 }
 .elipses {
   height: 32px;
