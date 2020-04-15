@@ -10,8 +10,8 @@
 > Need somewhere to stay? Use this app to find the perfect place! This is one service out of five for the full application. [Full App Demo: Coming soon](link)
 
 ### Serivce Demo:
-- [Visit Deployed Service](https://lodging-marketplace.herokuapp.com/)
 - [Video Demo (Coming Soon)](YouTubeLink)
+- see gif demo below
 
 ### Team Members
 
@@ -69,8 +69,16 @@ The service will now be available at: http://localhost:3000/
 ### Testing
 > Follow these instructions to run the tests.
 
-### End To End Tests
-Coming Soon detailing my work with Cypress.io
+#### End To End Tests
+
+Ensure the application is initialized and running on port:3000, then follow the instructions below:
+
+```bash
+npm run cypress
+```
+
+select 'Run all specs' in the window that opens:
+![cypress-spec-runner](https://rachel-portfolio.s3.amazonaws.com/cypress-spec-runner.png)
 
 # License
 
